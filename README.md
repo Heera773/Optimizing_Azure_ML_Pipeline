@@ -47,7 +47,7 @@ As for the hypereparameters, AutoML generates values for hyperparameter for each
 -   learning_rate = constant (Learning Rate is equal for all the time.)
 -   max_iter = 1000 (The maximum number of passes over the training data.)
 -   power_t = 0.3333333333333333 (The exponent for inverse scaling learning rate)
--   l1_ratio = 0.3877551020408163 (l1_ratio is a parameter in a [0, 1] range weighting l1 vs l2 regularisation)
+-   l1_ratio = 0.3877551020408163 (l1_ratio is a parameter in a [0, 1] range weighting l1 vs l2 regularisation where l1 and l2 are two loss functions in machine learning which are used to minimize the error. l1 Loss function stands for Least Absolute Deviations. l2 Loss function stands for Least Square Errors)
 
 Although there are several parameters that are tuned by AutoML, these are some of those values that were tuned and set by AutoML for the VotingEnsemble(XGBoostClassifier).
 
